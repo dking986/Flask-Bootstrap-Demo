@@ -1,5 +1,5 @@
 # Flask-Bootstrap-Demo
-This is a simple web app demo using Flask, Flask-login, Flask-SQLAlchemy, and a Postgresql database. 
+This is a simple web app demo using Flask, Flask-login, Flask-SQLAlchemy, and a SQLite3 database. 
 
 ### Technology
 
@@ -9,13 +9,15 @@ Flask-Bootstrap-Demo uses a multiple python libraries:
 * [Flask-Login](https://flask-login.readthedocs.io/en/latest/) - Flask-Login provides user session management for Flask.
 * [Flask-Bcrypt](https://flask-bcrypt.readthedocs.io/en/latest/) - Flask-Bcrypt is a Flask extension that provides bcrypt hashing utilities for your application.
 * [Bootstrap](http://getbootstrap.com/) - Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.
-* [SQLite3](https://docs.python.org/2/library/sqlite3.html)
+* [SQLite3](https://docs.python.org/2/library/sqlite3.html) - SQLite is a C library that provides a lightweight disk-based database
 
-### Installation / Setup
-
-Flask-Bootstrap-Demo requires [Python 2.7](https://www.python.org/) to run.
-
+### Installation
 Install the dependencies.
-  ```sh
+```sh
 $ python -m pip install -r requirements.txt
+```
+
+### Run
+```
+python app.py
 ```

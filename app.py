@@ -83,7 +83,7 @@ def register():
 
     # generate error messages if it doesnt pass
     if True in check_password.values():
-        for k,v in check_password.iteritems():
+        for k,v in check_password.items():
             if str(v) is "True":
                 flash(k)
 
